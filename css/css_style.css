@@ -57,9 +57,13 @@ h2 {
 
 .topnav li {
 	list-style:none;
-	padding:4px;
+	padding:20px;
 	font: bold 18px "Lora", serif;
 	display: inline-block;
+}
+
+.topnav li:hover{
+	background:white;
 }
 
 .leftcolum{
