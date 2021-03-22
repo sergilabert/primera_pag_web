@@ -22,11 +22,13 @@ a {
 	text-align: center;
 	font-family: "Lora", serif;
 	color:white;
+	letter-spacing: 1.5px;
 
 }
 .topnav{
 	background:#243E14;
 	padding:8px 8px;
+	margin-right:auto;
 }
 
 .topnav a{
