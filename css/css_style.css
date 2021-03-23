@@ -33,17 +33,19 @@ body{
 	height: 500px;
 }
 .header h1{
-	font-size: 55px;
+	font-size: 60px;
 	text-align: center;
 	font-family: "Lora", serif;
 	letter-spacing: 1.5px;
+	align-items:center;
 }
 .header h2{
-	font-size: 30px;
+	font-size: 35px;
 	text-align: center;
 	font-family: "Lora", serif;
 	color:white;
 	letter-spacing: 1.5px;
+	align-items:center;
 }
 
 .topnav{
