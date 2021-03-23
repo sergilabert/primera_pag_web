@@ -22,7 +22,6 @@ body{
 	background: #B4C9A6 
 }
 
-
 .header {
 	background-size:cover;
 	background-image: url(../images/IMG_1500.JPG);
@@ -55,9 +54,13 @@ body{
 
 .topnav a{
 	font-size: 20px;
-	color:white;
+	color:#243E14;
 	font-family: "Lora", serif;
 	text-decoration:none;
+	background:#F3F5D6;
+	padding: 4px 20px;
+	border-radius:30px;
+	margin:10px;
 }
 
 .topnav a:hover, .select{
