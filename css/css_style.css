@@ -22,10 +22,11 @@ body{
 	background: #B4C9A6 
 }
 
+
 .header {
-	background: url(../images/IMG_1500.JPG);
-	background-position: center center;
 	background-size:cover;
+	background-image: url(../images/IMG_1500.JPG);
+	background-position: center center;
 	background-repeat: no-repeat;
 	color:white;
 	border: 4px solid #132F02;
