@@ -183,15 +183,26 @@ h2 {
 }
 
 .seccio3 li{
+	list-style:none;
 	font-size: 15px;
 	color:#001B05;
 	font-weight:bold;
+	padding:8px;
+	background:#BFE2AD;
+	border-radius:20px;
+	letter-spacing:1.5px;
+	margin-top:10px
 
+}
+
+.seccio3 table{
+	margin: 0 auto;
+	 text-align: left;
 }
 
 .seccio4{
 	background:#F3F5D6;
-	margin:10px 
+	margin:10px
 	margin-bottom: 15px;
 	text-align: justify;
 	padding:10px 10px;
@@ -200,7 +211,7 @@ h2 {
 
 .footer{
 	clear:both;
-	padding:10px auto;
+	padding:10px 10px;
 	background:#333;
 	color:#fff;
 	text-align:center;
