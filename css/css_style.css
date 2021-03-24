@@ -209,6 +209,26 @@ h2 {
 	border-radius:40px;
 }
 
+.seccio5{
+	background:#F3F5D6;
+	margin:10px
+	margin-bottom: 15px;
+	text-align: justify;
+	padding:10px 10px;
+	border-radius:40px;
+	margin-top:78px
+}
+.seccio5 h1{
+	text-align:center;
+}
+.seccio5 img{
+	padding:10px;
+	background:#BFE2AD;
+	border-radius:15px;
+	letter-spacing:1.5px;
+	margin-top:10px
+}
+
 .footer{
 	clear:both;
 	padding:10px 10px;
