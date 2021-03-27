@@ -18,6 +18,11 @@ body{
 
 }
 
+html, body {
+            height: 100%;
+            width: 100%;
+}
+
 .group {
 	margin:0px;
 	background: #B4C9A6
@@ -90,8 +95,8 @@ body{
 
 #map{
 
-height: 100%
-width:100%;
+height:800px;
+width:1600px;
 
 }
 

@@ -2,7 +2,7 @@
 <html>
 <head>
 		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1,minimum-scale=1">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1">
 		<title>Mapa de Localització</title>
 		<meta name="description" content="Aquesta és la meva primera pàgina web de l'assignatura WebGis"/>
 		<meta name="author" content="Sergi Gilabert, alumne Universitat Rovira i Virgili"/>
@@ -45,19 +45,32 @@
 	</div>
 
 	<div id="map">
-		
-	</div>
 	<script>
 
-	let map = L.map("map", {center:[31.262218,34.801472],zoom:17});
+	let map = L.map("map", {center:[40.7155896,0.7451775],zoom:11});
 
 	L.tileLayer(
-	"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-	{attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
-	).addTo(map);
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
+    {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
+).addTo(map);
 
+	let pnt = L.marker([40.6085,0.7257]).addTo(map);
+	let pnt2 = L.marker([40.7846,0.7601]).addTo(map);
+	let pnt3 = L.marker([40.7026,0.8512]).addTo(map);
+	let pnt4 = L.marker([40.5788,0.5934]).addTo(map);
+	let pnt5 = L.marker([40.6528,0.6950]).addTo(map);
+	let pnt6 = L.marker([40.7581,0.8019]).addTo(map);
+	let pnt7 = L.marker([40.7846,0.7601]).addTo(map);
+	let pnt8 = L.marker([40.65320,0.77977]).addTo(map);
+	let pnt9 = L.marker([40.72349,0.72218]).addTo(map);
+	let pnt10 = L.marker([40.6719,0.5948]).addTo(map);
+	let pnt11 = L.marker([40.72313,0.85517]).addTo(map);
+	let pnt12 = L.marker([40.6478,0.7387]).addTo(map);
+	let pnt13 = L.marker([40.65813,0.67544]).addTo(map);
+	let pnt14 = L.marker([40.71311,0.71751]).addTo(map);
 
 	</script>
+	</div>
 
 	<div class="footer">
 
