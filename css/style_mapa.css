@@ -1,0 +1,124 @@
+* {
+font-family: verdana;
+box-sizing:border-box; 
+}
+
+a {
+	color:black;
+	font-weight:bold;
+	color:#024B0F;
+}
+
+
+body{
+	background:#B4C9A6;
+	margin:0px 0px;
+	padding:0px;
+	font-family: "Lora", serif;
+
+}
+
+.group {
+	margin:0px;
+	background: #B4C9A6
+}
+
+.header {
+	background-size:cover;
+	background-image: url(../images/IMG_1481.JPG);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:#f8f8ff;
+	border: 3px solid #132F02;
+	height: 600px;
+	margin:auto;
+}
+.header h1{
+	font-size: 85px;
+	text-align: center;
+	font-family: "Lora", serif;
+	letter-spacing: 1.5px;
+	text-shadow: 0.1em 0.1em #333
+}
+
+.topnav {
+	background:#243E14;
+	padding:4px;
+	margin-right:auto;
+	border: 1px solid #132F02;
+}
+
+.topnav li a{
+	font-size: 20px;
+	color:#243E14;
+	font-family: "Lora", serif;
+	text-decoration:none;
+	background:#F3F5D6;
+	padding: 4px 20px;
+	border-radius:30px;
+	margin:10px;
+}
+
+.topnav li a:hover, .select{
+	background:#243E14;
+	color:white;
+}
+
+.topnav li {
+	list-style:none;
+	padding:8px;
+	font: bold 18px "Lora", serif;
+	display: inline-block;
+	text-align: left;
+}
+ 
+ .topnav img {
+ 	border: 2px solid black; float: right;
+ 	width:70px;
+ 	height:70px;
+ }
+
+.logo{
+	width:30%;
+	float:right;
+}
+
+.logo img{
+	background: white
+}
+
+#map{
+
+height: 100%
+width:100%;
+
+}
+
+.footer{
+	clear:both;
+	padding:10px 10px;
+	background:#333;
+	color:#fff;
+	text-align:center;
+}
+
+.footer [class^="icon-"]{
+	font-family: "iconos-de-prova";
+	display:inline-block;
+	color:#333;
+	text-decoration:none;
+	font-size:30px;
+	padding:10px;
+	background: white;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	line-height:40px;
+}
+
+.top a{
+	font-size: 13px;
+	color:white;
+	font-weight:bold;
+}
