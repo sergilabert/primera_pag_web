@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+<!-- He utilitzat l'etiqueta meta per donar més informació de la meva pàgina web-->
 		<meta charset="utf-8"/>
-		<title>CONTACTE</title>
+		<title>Contacte</title>
 		<meta name="description" content="Aquesta és la meva primera pàgina web de l'assignatura WebGis"/>
 		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 		<meta name="author" content="Sergi Gilabert, alumne Universitat Rovira i Virgili"/>
-		<!-- He utilitzat l'etiqueta meta per donar més informació de la meva pàgina web-->
 		
+<!--Links dels CSS-->
+
 		<link rel="stylesheet" href="css/contacte_style.css">
 
 		<link rel="stylesheet" href="css/font.css">
+
+<!--Enllaç que conecta al footer per a que torni a l'inici de la pàgina-->
 
 		<a name="header"></a>
 
 	</head>
 
 	<body>
+
+<!--Primer he realitzat una divisió anomenada "group" on s'inclou tot el body.-->
+
+<!--Desprès tres classes, on la primera ("header") engloba la capçalera amb el títol i el subtítol, la segona ("topnav"),la barra de navegació i dins d'aquesta segona hi ha una tercera on hi ha el logo-->
 
 	<div class="group">
 
@@ -25,40 +33,43 @@
   						
 				</div> 
 
-		<div class="topnav">
-			<div class="logo">
-				<a href="index.html"target="blank"><img src="images/logo_transparent.png"></a>
+				<div class="topnav">
+					<div class="logo">
+						<a href="index.html"target="blank"><img src="images/logo_transparent.png"></a>
+					</div>
+
+					<ul>
+						<li><a class="select" href="index.html"target="blank">INICI</a></li>
+						<li> <a class="select" href="imatges.html"target="blank">IMATGES</a></li>
+						<li> <a class="select" href="mapa.html"target="blank">MAPA DE LOCALITZACIÓ</a></li>
+						<li> <a class="select" href="#"target="blank">CONTACTE</a></li>
+			
+					</ul>
 			</div>
 
-		<ul>
-			<li><a class="select" href="index.html"target="blank">INICI</a></li>
-			<li> <a class="select" href="imatges.html"target="blank">IMATGES</a></li>
-			<li> <a class="select" href="mapa.html"target="blank">MAPA DE LOCALITZACIÓ</a></li>
-			<li> <a class="select" href="#"target="blank">CONTACTE</a></li>
-			
-		</ul>
-	</div>
+<!-- Desprès he realitzat el formulari de contacte a partir de tutorials.
+Podria configurar a partir de PHP que envies el missatge en algun lloc, però crec que no era necessari per a la pràctic.
+-->
 
-<!-- Podiaa configurar a partir de PHP que envies el missatge en algun lloc, però crec que no era necessari per a les necessitats de la pràctica.-->
+    	<form action="">
+     		<h2> CONTACTE </h2>
+		     	<input type="text" name="nom" placeholder="Nom">
+		     	<input type="text" name="correu" placeholder="Correu">
+		     	<input type="text" name="telefono" placeholder="Telèfon">
+		     	<textarea name="missatge" placeholder="Escriu aquí el missatge..."></textarea>
+		     	<input type="button" value="ENVIAR" id="boto">
+     	</form>
 
-     <form action="">
-     	<h2> CONTACTE </h2>
-     	<input type="text" name="nom" placeholder="Nom">
-     	<input type="text" name="correu" placeholder="Correu">
-     	<input type="text" name="telefono" placeholder="Telèfon">
-     	<textarea name="missatge" placeholder="Escriu aquí el missatge..."></textarea>
-     	<input type="button" value="ENVIAR" id="boto">
-     </form>
+<!-- Per últim he realitzat el footer on he inclòs el que es demanava en la pràctica i també ho he classificat per classes-->
 
-
-	<div class="footer">
+		<div class="footer">
 
 				<a href="https://ca-es.facebook.com/"target="blank"class="icon-facebook"></a>
 				<a href="https://twitter.com/?lang=ca"target="blank" class="icon-twitter"></a>
 				<a href="https://www.instagram.com/"target="blank" class="icon-instagram"></a>
 				<a href="https://www.linkedin.com/"target="blank" class="icon-linkedin"></a>
 
-			<p class="copy">&copy; Gilabert Sergi,2021 - Tots els drets reservats</p>
+					<p class="copy">&copy; Gilabert Sergi,2021 - Tots els drets reservats</p>
 
 		<div class="top">
 
@@ -67,5 +78,8 @@
 		</div>
 	
 		</div>
+
+		</div>
+		
 	</body>
 </html>

@@ -1,95 +1,114 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
+<!-- He utilitzat l'etiqueta meta per donar més informació de la meva pàgina web-->
 		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
 		<title>Mapa de Localització</title>
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
 		<meta name="description" content="Aquesta és la meva primera pàgina web de l'assignatura WebGis"/>
 		<meta name="author" content="Sergi Gilabert, alumne Universitat Rovira i Virgili"/>
-		<!-- He utilitzat l'etiqueta meta per donar més informació de la meva pàgina web-->
 		
+<!--Links dels CSS-->
+
 		<link rel="stylesheet" href="css/style_mapa.css">
 
 		<link rel="stylesheet" href="css/font.css">
 
 		<link rel="stylesheet" href="css/leaflet.css">
 
+<!--Link dels Java Script-->
+
 		<script src="js/leaflet.js"></script>
+
+<!--Enllaç que conecta al footer per a que torni a l'inici de la pàgina-->
 
 		<a name="header"></a>
 
-</head>
-<body>
+	</head>
+	<body>
+
+<!--Primer he realitzat una divisió anomenada "group" on s'inclou tot el body.-->
+
+<!--Desprès tres classes, on la primera ("header") engloba la capçalera amb el títol i el subtítol, la segona ("topnav"),la barra de navegació i dins d'aquesta segona hi ha una tercera on hi ha el logo-->
 
 	<div class="group">
 
-				<div class="header">
+			<div class="header">
 
   					<h1>MAPA DE LOCALITZACIÓ</h1>
-  					<h2> Llocs d'interès per visitar al Delta de l'Ebre</h2>
+  						<h2> Llocs d'interès per visitar al Delta de l'Ebre</h2>
 
-				</div> 
+			</div> 
 
-				<div class="topnav">
+			<div class="topnav">
 					<div class="logo">
 							<a href="index.html"target="blank"><img src="images/logo_transparent.png"></a>
 					</div>
 
-			<ul>
-				<li><a class="select" href="index.html"target="blank">INICI</a></li>
-				<li><a class="select" href="imatges.html"target="blank">IMATGES</a></li>
-				<li><a class="select" href="#"target="blank">MAPA DE LOCALITZACIÓ</a></li>
-				<li><a class="select" href="contacte.html"target="blank">CONTACTE</a></li>
+					<ul>
+						<li><a class="select" href="index.html"target="blank">INICI</a></li>
+						<li><a class="select" href="imatges.html"target="blank">IMATGES</a></li>
+						<li><a class="select" href="#"target="blank">MAPA DE LOCALITZACIÓ</a></li>
+						<li><a class="select" href="contacte.html"target="blank">CONTACTE</a></li>
 			
-		</ul>
+					</ul>
 
-	</div>
+			</div>
 
-	<div id="map">
-	<script>
+<!--Aquí he aplicat el mapa a partir del open street map amb Java Script, he seguit el procediment del professor i d'algunes indicacions de la propia web d'open street map per poder realitzar-ho correctament.
+També he afegit diversos marcadors amb zones d'interès per visitar.-->
 
-	let map = L.map("map", {center:[40.7155896,0.7451775],zoom:11});
+			<div id="map">
+				<script>
 
-	L.tileLayer(
-    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
-    {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
-).addTo(map);
+					let map = L.map("map", {center:[40.7155896,0.7451775],zoom:11});
 
-	let pnt = L.marker([40.6085,0.7257]).addTo(map);
-	let pnt2 = L.marker([40.7846,0.7601]).addTo(map);
-	let pnt3 = L.marker([40.7026,0.8512]).addTo(map);
-	let pnt4 = L.marker([40.5788,0.5934]).addTo(map);
-	let pnt5 = L.marker([40.6528,0.6950]).addTo(map);
-	let pnt6 = L.marker([40.7581,0.8019]).addTo(map);
-	let pnt7 = L.marker([40.7846,0.7601]).addTo(map);
-	let pnt8 = L.marker([40.65320,0.77977]).addTo(map);
-	let pnt9 = L.marker([40.72349,0.72218]).addTo(map);
-	let pnt10 = L.marker([40.6719,0.5948]).addTo(map);
-	let pnt11 = L.marker([40.72313,0.85517]).addTo(map);
-	let pnt12 = L.marker([40.6478,0.7387]).addTo(map);
-	let pnt13 = L.marker([40.65813,0.67544]).addTo(map);
-	let pnt14 = L.marker([40.71311,0.71751]).addTo(map);
+					L.tileLayer(
+    					"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
+    					{attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
+
+					).addTo(map);
+
+						let pnt = L.marker([40.6085,0.7257]).addTo(map);
+						let pnt2 = L.marker([40.7846,0.7601]).addTo(map);
+						let pnt3 = L.marker([40.7026,0.8512]).addTo(map);
+						let pnt4 = L.marker([40.5788,0.5934]).addTo(map);
+						let pnt5 = L.marker([40.6528,0.6950]).addTo(map);
+						let pnt6 = L.marker([40.7581,0.8019]).addTo(map);
+						let pnt7 = L.marker([40.7846,0.7601]).addTo(map);
+						let pnt8 = L.marker([40.65320,0.77977]).addTo(map);
+						let pnt9 = L.marker([40.72349,0.72218]).addTo(map);
+						let pnt10 = L.marker([40.6719,0.5948]).addTo(map);
+						let pnt11 = L.marker([40.72313,0.85517]).addTo(map);
+						let pnt12 = L.marker([40.6478,0.7387]).addTo(map);
+						let pnt13 = L.marker([40.65813,0.67544]).addTo(map);
+						let pnt14 = L.marker([40.71311,0.71751]).addTo(map);
 
 
-	</script>
-	</div>
+				</script>
+			</div>
 
-	<div class="footer">
+<!-- Per últim he realitzat el footer on he inclòs el que es demanava en la pràctica i també ho he classificat per classes-->
+
+			<div class="footer">
 
 				<a href="https://ca-es.facebook.com/"target="blank"class="icon-facebook"></a>
 				<a href="https://twitter.com/?lang=ca"target="blank" class="icon-twitter"></a>
 				<a href="https://www.instagram.com/"target="blank" class="icon-instagram"></a>
 				<a href="https://www.linkedin.com/"target="blank" class="icon-linkedin"></a>
 
-			<p class="copy">&copy; Gilabert Sergi,2021 - Tots els drets reservats</p>
+					<p class="copy">&copy; Gilabert Sergi,2021 - Tots els drets reservats</p>
 
-	<div class="top">
+			<div class="top">
 
-			<a href="#header"class="lletra_top">Inici pàgina </a>
+				<a href="#header"class="lletra_top">Inici pàgina </a>
 
-		</div>
-		</div>
+			</div>
 
-</body>
+			</div>
+
+			</div>
+
+	</body>
 
 </html>
