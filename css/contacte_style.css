@@ -52,12 +52,6 @@ body{
 
 }
 
-html, body {
-            height: 100%;
-            width: 100%;
-}
-
-
 .group {
 	margin:0px;
 	background: #B4C9A6
@@ -65,7 +59,7 @@ html, body {
 
 .header {
 	background-size:cover;
-	background-image: url(../images/IMG_1481.JPG);
+	background-image: url(../images/IMG_1397.JPG);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -137,11 +131,57 @@ html, body {
 	background: white
 }
 
-#map{
+form{
+	width:650px;
+	margin:auto;
+	background:#F3F5D6;
+	padding:10px 20px;
+	box-sizing: border-box;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius: 25px;
+	font-family: "Lora", serif;
+}
+h2{
+	color:#243E14;
+	text-align:center;
+	margin:0;
+	font-size:35px;
+	margin-bottom:20px;
+	font-family: "Lora", serif;
+}
 
-height:800px;
-width:1600px;
+input,textarea{
+	width:100%;
+	margin-bottom:20px;
+	padding:7px;
+	box-sizing:border-box;
+	font-size:17px;
+	border:none;
+}
 
+textarea{
+	min-height:100px;
+	max-height:200px;
+	max-width:100%;
+}
+
+#boto{
+	background:#243E14;
+	color:white;
+	padding:20px;
+	border-radius: 25px;
+}
+
+#boto:hover{
+	cursor:pointer;
+
+}
+
+@media (max-width:480px){
+	form{
+		width:100%
+	}
 }
 
 .footer{
