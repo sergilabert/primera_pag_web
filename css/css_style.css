@@ -1,27 +1,40 @@
+/* Estils que afecten a tota la pàgina web */
+
 * {
 font-family: verdana;
 box-sizing:border-box; 
 }
+
+/* Estils que afecten a tots els links la pàgina web */
 
 a {
 	color:black;
 	font-weight:bold;
 	color:#024B0F;
 }
+
+/* Estils que afecten a totes les imatges de la pàgina web */
+
 img {
 	display: block;
 	max-width:100%;
 	background: white
 }
 
+/* Estils que afecten al body (cos) de la pàgina web */
+
 body{
 	margin:0px
 }
+
+/* Estils que afecten a la classe group */
 
 .group {
 	margin:auto;
 	background: #B4C9A6 
 }
+
+/* Estils que afecten a la classe header (titòls,subtitòls) */
 
 .header {
 	background-size:cover;
@@ -49,6 +62,8 @@ body{
 	letter-spacing: 1.5px;
 	text-shadow: 0.1em 0.1em #333;
 }
+
+/* Estils que afecten a la classe topnav (enllaços, imatge, logo) */
 
 .topnav{
 	background:#243E14;
@@ -93,6 +108,8 @@ body{
 	float:right;
 }
 
+/* Estils que afecten a tots els h2 de la pàgina web*/
+
 h2 {
 	font-size: 55px
 	font-weight: bold;
@@ -102,10 +119,7 @@ h2 {
 	text-align:center;
 }
 
- .footer,section{
- 	border: 2px solid #737C05;
- 	display:block;
- }
+/* Estils que afecten a la classe leftcolum*/
  
 .leftcolum{
 	margin:20px;
@@ -113,6 +127,8 @@ h2 {
 	float:left;
 	line-height:30px;
 }
+
+/* Estils que afecten a la classe rightcolum*/
 
 .rightcolum{
 	width:35%;
@@ -132,6 +148,8 @@ h2 {
 	color:#3B4529;
 	font-weight:bold;
 }
+
+/* Etiquetes que afecten a la seccio 1,2,3,4 i 5*/
 
 .seccio1{
 	background:#F3F5D6;
@@ -231,6 +249,8 @@ h2 {
 	margin-top:27px
 }
 
+/* Estils que afecten al footer*/
+
 .footer{
 	clear:both;
 	padding:10px 10px;
@@ -252,6 +272,11 @@ h2 {
 	height:50px;
 	line-height:40px;
 }
+
+ .footer,section{
+ 	border: 2px solid #737C05;
+ 	display:block;
+ }
 
 .top a{
 	font-size: 13px;

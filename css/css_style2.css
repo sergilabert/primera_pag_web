@@ -1,7 +1,11 @@
+/* Etiquetes que afecten a tota la pàgina web */
+
 * {
 font-family: verdana;
 box-sizing:border-box; 
 }
+
+/* Etiquetes que afecten a tots els links la pàgina web */
 
 a {
 	color:black;
@@ -9,6 +13,7 @@ a {
 	color:#024B0F;
 }
 
+/* Etiquetes que afecten al body (cos) de la pàgina web */
 
 body{
 	background:#B4C9A6;
@@ -17,10 +22,14 @@ body{
 
 }
 
+/* Etiquetes que afecten a la classe group */
+
 .group {
 	margin:0px;
 	background: #B4C9A6
 }
+
+/* Etiquetes que afecten a la classe header (titòls,subtitòls) */
 
 .header {
 	background-size:cover;
@@ -40,6 +49,8 @@ body{
 	letter-spacing: 1.5px;
 	text-shadow: 0.1em 0.1em #333
 }
+
+/* Etiquetes que afecten a la classe topnav (enllaços, imatge, logo) */
 
 .topnav {
 	background:#243E14;
@@ -145,6 +156,8 @@ body{
 	margin:15px 0;
 }
 
+/* Estils que afecten a les imatges*/
+
 .imagen{
 	width:100%;
 	height:50%;
@@ -198,6 +211,8 @@ body{
 	border-radius:50%;
 	line-height:25px;
 }
+
+/* Estils que afecten al footer*/
 
 .footer{
 	clear:both;

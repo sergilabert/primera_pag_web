@@ -1,7 +1,11 @@
+/* Estils que afecten a tota la pàgina web */
+
 * {
 font-family: verdana;
 box-sizing:border-box; 
 }
+
+/* Estils que afecten a tots els links la pàgina web */
 
 a {
 	color:black;
@@ -9,6 +13,7 @@ a {
 	color:#024B0F;
 }
 
+/* Estils que afecten al body (cos) de la pàgina web */
 
 body{
 	background:#B4C9A6;
@@ -18,10 +23,14 @@ body{
 
 }
 
+/* Estils que afecten a la classe group */
+
 .group {
 	margin:0px;
 	background: #B4C9A6
 }
+
+/* Estils que afecten a la classe header (titòls,subtitòls) */
 
 .header {
 	background-size:cover;
@@ -50,6 +59,8 @@ body{
 	letter-spacing: 1.5px;
 	text-shadow: 0.1em 0.1em #333
 }
+
+/* Estils que afecten a la classe topnav (enllaços, imatge, logo) */
 
 .topnav {
 	background:#243E14;
@@ -97,6 +108,8 @@ body{
 	background: white
 }
 
+/* Estils que afecten al formulari de contacte */
+
 form{
 	width:650px;
 	margin:auto;
@@ -108,6 +121,9 @@ form{
 	border-radius: 25px;
 	font-family: "Lora", serif;
 }
+
+/* Estils que afecten a tots els h2 de la pàgina web*/
+
 h2{
 	color:#243E14;
 	text-align:center;
@@ -132,6 +148,8 @@ textarea{
 	max-width:100%;
 }
 
+/* Estils per al botó del formulari*/
+
 #boto{
 	background:#243E14;
 	color:white;
@@ -144,11 +162,15 @@ textarea{
 
 }
 
+/* CSS responsive*/
+
 @media (max-width:480px){
 	form{
 		width:100%
 	}
 }
+
+/* Estils que afecten al footer*/
 
 .footer{
 	clear:both;

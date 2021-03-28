@@ -1,7 +1,10 @@
+/* Estils que afecten a tota la pàgina web */
 * {
 font-family: verdana;
 box-sizing:border-box; 
 }
+
+/* Estils que afecten a tots els links de la pàgina web */
 
 a {
 	color:black;
@@ -9,6 +12,7 @@ a {
 	color:#024B0F;
 }
 
+/* Estils que afecten al body (cos) de la pàgina web */
 
 body{
 	background:#B4C9A6;
@@ -23,11 +27,14 @@ html, body {
             width: 100%;
 }
 
+/* Estils que afecten a la classe group */
 
 .group {
 	margin:0px;
 	background: #B4C9A6
 }
+
+/* Estils que afecten a la classe header (titòls,subtitòls) */
 
 .header {
 	background-size:cover;
@@ -56,6 +63,8 @@ html, body {
 	letter-spacing: 1.5px;
 	text-shadow: 0.1em 0.1em #333
 }
+
+/* Estils que afecten a la classe topnav (enllaços, imatge, logo) */
 
 .topnav {
 	background:#243E14;
@@ -103,12 +112,16 @@ html, body {
 	background: white
 }
 
+/* Estils que afecten al mapa */
+
 #map{
 
 height:800px;
 width:auto;
 
 }
+
+/* Estils que afecten al footer*/
 
 .footer{
 	clear:both;
