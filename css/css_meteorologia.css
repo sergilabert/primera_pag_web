@@ -1,0 +1,169 @@
+/* Estils que afecten a tota la pàgina web */
+
+* {
+font-family: verdana;
+box-sizing:border-box; 
+}
+
+/* Estils que afecten a tots els links la pàgina web */
+
+a {
+	color:black;
+	font-weight:bold;
+	color:#024B0F;
+}
+
+/* Estils que afecten a totes les imatges de la pàgina web */
+
+img {
+	display: block;
+	max-width:100%;
+	background: white
+}
+
+/* Estils que afecten al body (cos) de la pàgina web */
+
+body{
+	margin:0px
+}
+
+/* Estils que afecten a la classe group */
+
+.group {
+	margin:auto;
+	background: #B4C9A6 
+}
+
+}
+
+/* Estils que afecten a la classe header (titòls,subtitòls) */
+
+.header {
+	background-size:cover;
+	background-image: url(../images/IMG_1500.JPG);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color:#f8f8ff;
+	border: 3px solid #132F02;
+	height: 600px;
+	
+}
+.header h1{
+	font-size: 85px;
+	text-align: center;
+	font-family: "Lora", serif;
+	letter-spacing: 1.5px;
+	text-shadow: 0.1em 0.1em #333;
+}
+.header h2{
+	font-size: 55px;
+	text-align: center;
+	font-family: "Lora", serif;
+	color:white;
+	letter-spacing: 1.5px;
+	text-shadow: 0.1em 0.1em #333;
+}
+
+/* Estils que afecten a la classe topnav (enllaços, imatge, logo) */
+
+.topnav{
+	background:#243E14;
+	padding:4px;
+	margin-right:auto;
+	border: 1px solid #132F02;
+	
+}
+
+.topnav li a{
+	font-size: 20px;
+	color:#243E14;
+	font-family: "Lora", serif;
+	text-decoration:none;
+	background:#F3F5D6;
+	padding: 4px 20px;
+	border-radius:30px;
+	margin:10px;
+}
+
+.topnav li a:hover, .select{
+	background:#243E14;
+	color:white;
+}
+
+.topnav li {
+	list-style:none;
+	padding:8px;
+	font: bold 18px "Lora", serif;
+	display: inline-block;
+	text-align: left;
+}
+ 
+ .topnav img {
+ 	border: 2px solid black; float: right;
+ 	width:70px;
+ 	height:70px;
+ }
+
+.logo{
+	width:30%;
+	float:right;
+}
+
+/* Estils que afecten a tots els h2 de la pàgina web*/
+
+h2 {
+	font-size: 55px
+	font-weight: bold;
+	font-family: "Lora", serif;
+	color:black;
+	letter-spacing:1.5px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estils que afecten al footer*/
+
+.footer{
+	clear:both;
+	padding:10px 10px;
+	background:#333;
+	color:#fff;
+	text-align:center;
+}
+
+.footer [class^="icon-"]{
+	font-family: "iconos-de-prova";
+	display:inline-block;
+	color:#333;
+	text-decoration:none;
+	font-size:30px;
+	padding:10px;
+	background: white;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	line-height:40px;
+}
+
+ .footer,section{
+ 	border: 2px solid #737C05;
+ 	display:block;
+ }
+
+.top a{
+	font-size: 13px;
+	color:white;
+	font-weight:bold;
+}
