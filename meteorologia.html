@@ -51,6 +51,83 @@
 
 				</div>
 
+			<h1> Previsió meteorològica a partir del codi postal </h1>
+
+			<input type="text" id="text_cp">
+
+			<input type="button" value="Click" id="the_button">
+
+			<table id="taula-cps">
+			<thread>
+				<tr>
+					<th> Municipi </th>
+					<th> Temps </th>
+					<th> Temperatura Mínima </th>
+					<th> Temperatura Màxima </th>
+					<th> Humitat </th>
+				</tr>
+			</thread>
+			<tbody id='dades-taula'>
+				<tr>
+					<td> mun_prova </td>
+					<td> temps_prova </td>
+					<td> tmin_prova </td>
+					<td> tmax_prova </td>
+					<td> hum_prova </td>
+				</tr>
+			</tbody>
+			</table>
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	
+	<script>
+
+		document
+		.getElementById("the_button")
+		.addEventListener("click", () => {
+
+			var cp = document.getElementById("text_cp").value;
+
+			var url = 'http://api.openweathermap.org/data/2.5/weather?zip='+cp+',es&appid=d887814b738f4ad3816e2a128cd62790'
+
+			console.log(url);
+
+		fetch(url)
+			
+		.then(resposta=>resposta.json())
+		.then(json=>{
+
+
+			html="";
+			json.weather.forEach( function(element) {console.log(element.main);
+
+				html += "<tr>";
+				html +=	"<td> "+element.name+" </td>";
+				html +=	"<td> "+element.main+" </td>";
+				html +=	"<td> "+element.temp_min+" </td>";
+				html +=	"<td> "+element.temp_max+"</td>";
+				html +=	"<td> "+element.humidity+" </td>";
+				html += "</tr>";
+
+			});
+
+			console.log(html);
+
+				document
+				.getElementById("dades-taula")
+				.innerHTML=html;
+
+
+		})
+
+	.catch(error=> console.log(error));
+
+
+		});
+
+	</script>
+
 <!-- Per últim he realitzat el footer on he inclòs el que es demanava en la pràctica i també ho he classificat per classes-->
 
 
