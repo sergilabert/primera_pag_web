@@ -13,6 +13,16 @@ a {
 	color:#024B0F;
 }
 
+/* Estils que afecten al body (cos) de la pàgina web */
+
+body{
+	background:#B4C9A6;
+	margin:0px 0px;
+	padding:0px;
+	font-family: "Lora", serif;
+
+}
+
 /* Estils que afecten a totes les imatges de la pàgina web */
 
 img {
@@ -40,7 +50,7 @@ body{
 
 .header {
 	background-size:cover;
-	background-image: url(../images/IMG_1500.JPG);
+	background-image: url(../images/IMG_1277.JPG);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -53,6 +63,7 @@ body{
 	font-size: 85px;
 	text-align: center;
 	font-family: "Lora", serif;
+	color:white;
 	letter-spacing: 1.5px;
 	text-shadow: 0.1em 0.1em #333;
 }
@@ -111,22 +122,6 @@ body{
 }
 
 /* Estils que afecten a tots els h2 de la pàgina web*/
-
-h2 {
-	font-size: 55px
-	font-weight: bold;
-	font-family: "Lora", serif;
-	color:black;
-	letter-spacing:1.5px;
-	text-align:center;
-}
-
-
-
-
-
-
-
 
 
 
