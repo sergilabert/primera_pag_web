@@ -148,7 +148,6 @@
         }).addTo(map);
       </script>
 
-      <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
       <script>
         function pintar_latitud(latitud, longitud) {
@@ -158,15 +157,13 @@
         function ficar_pin(latitud, longitud, name) {
 
           map.flyTo([latitud,longitud],11);
-
-          L.marker ([latitud,longitud]) .addTo(map)
+          L.marker([latitud,longitud]).addTo(map)
           .bindPopup(name)
           .openPopup();
         }
 
       </script>
 
-      <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
       <script>
         document.getElementById("the_button").addEventListener("click", () => {
@@ -178,6 +175,8 @@
 
           console.log(url);
 
+      ///Crida de javascript en el meu HTML, a partir del FETCH////
+          
           fetch(url)
 
             .then((resposta) => resposta.json())
@@ -220,6 +219,7 @@
       </script>
 
       <!-- Per últim he realitzat el footer on he inclòs el que es demanava en la pràctica i també ho he classificat per classes-->
+      
       <div class="footer">
         <a
           href="https://ca-es.facebook.com/"
