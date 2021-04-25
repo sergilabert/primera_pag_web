@@ -44,13 +44,13 @@ body{
 	background: #B4C9A6 
 }
 
-}
+
 
 /* Estils que afecten a la classe header (titòls,subtitòls) */
 
 .header {
 	background-size:cover;
-	background-image: url(../images/IMG_1277.JPG);
+	background-image: url(../images/IMG_1481.JPG);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -121,12 +121,135 @@ body{
 	float:right;
 }
 
-/* Estils que afecten a tots els h2 de la pàgina web*/
+
+.seccio1 h1{
+	background:#F3F5D6;
+	color:#3B4529;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Lora", serif;
+	letter-spacing:1.5px;
+	text-align:center;
+	padding:10px 10px;
+	border-radius:40px;
+}
+
+table{
+	margin:  auto;
+	text-align: center;
+	box-sizing:content-box;
+}
+
+.seccio2{
+	background:#F3F5D6;
+	margin:10px
+	margin-bottom: 15px;
+	text-align: center;
+	padding:10px 10px;
+	border-radius:40px;
+}
+
+
+.seccio2 th{
+	font-size: 15px;
+	text-align:center;
+	color:#001B05;
+	font-weight:bold;
+	padding:8px;
+	background:#BFE2AD;
+	border-radius:20px;
+	letter-spacing:1.5px;
+	margin-top:10px;
+}
+
+.seccio2 td{
+	font-size: 15px;
+	text-align:center;
+	color:#001B06;
+	font-weight:bold;
+	padding:8px;
+	background:#F3F5D6;
+	border-radius:20px;
+	letter-spacing:1.5px;
+	margin-top:10px;
+
+}
+
+#text_cp{
+	background:white;
+	color:black;
+	font-size: 15px;
+	padding:10px;
+	border-radius: 20px;
+	align-items: center;
+	border-radius:40px;
+	margin:20px;
+	background:#F3F9C5;
+	border-color:black;
+}
+
+.descripcio{
+	background:#F3F5D6;
+	margin:10px 
+	margin-bottom: 15px;
+	text-align: justify;
+	padding:10px 10px;
+	border-radius:40px;
+	line-height:30px;
+
+}
+
+h3{
+	background:#F3F5D6;
+	color:#3B4529;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Lora", serif;
+	letter-spacing:1.5px;
+	text-align:left;
+	padding:4px 20px;
+	border-radius:40px;
+	margin:10px;
+	text-decoration:none;
+}
 
 
 
+#the_button{
+
+	background:#243E14;
+	font-size: 15px;
+	color:white;
+	padding:10px;
+	border-radius: 20px;
+	align-items: center
+	border-color:black;
+	
+	
+}
+
+#the_button:hover{
+	 cursor:pointer;
+}
 
 
+#boto{
+	background:#243E14;
+	font-size: 15px;
+	color:white;
+	padding:10px;
+	border-radius: 20px;
+	align-items: center
+	border-color:black;
+
+
+}
+
+
+#map {
+			height:600px;
+			width:auto;
+		}
 
 /* Estils que afecten al footer*/
 
@@ -136,6 +259,7 @@ body{
 	background:#333;
 	color:#fff;
 	text-align:center;
+
 }
 
 .footer [class^="icon-"]{
@@ -152,10 +276,6 @@ body{
 	line-height:40px;
 }
 
- .footer,section{
- 	border: 2px solid #737C05;
- 	display:block;
- }
 
 .top a{
 	font-size: 13px;
