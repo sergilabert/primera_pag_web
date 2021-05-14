@@ -14,9 +14,16 @@
 
 		<link rel="stylesheet" href="css/font.css">
 
+<!--Links del Mermaid-->
+
+		<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+        <script>mermaid.initialize({startOnLoad:true});</script>
+        <script>mermaid.flowchartConfig = {width: 100%}</script>
+
 <!--Enllaç que conecta al footer per a que torni a l'inici de la pàgina-->
 
 		<a name="header"></a>
+
 
 	</head>
 	<body>
@@ -54,11 +61,85 @@
 -->
 			<div id="map">
 				 <iframe
-      				style=" width: 100%; height: 100%;"
+      				style="height: 100%; width:100%; "
         			src=qgis2web/mapdelta.html>
       </iframe>
 				
 			</div>
+
+
+		<div class="mermaid">
+
+	graph LR
+    A[ESPAIS NATURALS<br>DE PROTECCIÓ ESPECIAL]
+    A-->B[Parc Natural]
+    B-->D(Parc Natural<br>del Delta de l'Ebre)
+   
+    A-->C[Reserves Naturals]
+    C-->E(Reserva Natural<br>de Fauna Salvatge de l'Embut)
+    C-->F(Reserva Natural <br> de Fauna Salvatge de l'Estació biològica el Canal Vell)
+    C-->G(Reserva Natural <br> de Fauna Salvatge de l'Illa de Sant Antoni)
+    C-->H(Reserva Natural <br> de Fauna Salvatge de l'Illa de Mar)
+    C-->I(Reserva Natural <br> de Fauna Salvatge de la Llacuna de la Tancada)
+    C-->J(Reserva Natural <br>de Fauna Salvatge de la Punta del Fangar)
+    C-->K(Reserva Natural <br> de Fauna Salvatge de les Illes de l'Ebre)
+    C-->L(Reserva Natural <br> Parcial de la Punta de la Banya)
+    C-->M(Reserva Natural <br> Parcial Illa de Sapinya)
+    
+A:::class1
+    classDef class1 fill:#0E9D0C
+    classDef class1 stroke:#333
+
+B:::class2
+classDef class2 fill:#8BC63E
+classDef class2 stroke: #333
+
+C:::class3
+classDef class3 fill:#B5B83B
+classDef class3 stroke: #333
+
+D:::class4
+classDef class4 fill:#D2EEAE
+classDef class4 stroke: #333
+
+E:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+F:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+G:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+H:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+I:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+J:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+K:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+L:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+M:::class5
+classDef class5 fill:#DFF75D 
+classDef class5 stroke: #333
+
+
+		</div>
 
 <!-- Per últim he realitzat el footer on he inclòs el que es demanava en la pràctica i també ho he classificat per classes-->
 
