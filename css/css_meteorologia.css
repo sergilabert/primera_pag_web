@@ -45,12 +45,11 @@ body{
 }
 
 
-
 /* Estils que afecten a la classe header (titòls,subtitòls) */
 
 .header {
 	background-size:cover;
-	background-image: url(../images/IMG_1481.JPG);
+	background-image: url(../images/IMG_1503.JPG);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
