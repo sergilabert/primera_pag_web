@@ -1,3 +1,55 @@
+/* Extra small devices (phones, 600 px and down) */
+
+@media only screen and (max-width:600px){
+	div.header{
+		font-size:5px;
+	}
+	
+}
+
+/* Small devices (potrait tablets and large phones, 600 px and up) */
+
+@media only screen and (min-width:600px){
+	div.header{
+		font-size:5px;
+
+	}
+	
+}
+
+/* Medium devices (landscape, tablets, 768 px and up) */
+
+@media only screen and (min-width: 768px){
+	div.header{
+		font-size:5px;
+
+	}
+
+}
+
+
+/* Large devices(laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px){
+	div.header{
+		font-size:5px;
+
+	}
+	
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200 px and up) */
+
+@media only screen and (min-width:1200px){
+	div.header{
+		font-size:5px;
+
+	}
+	
+}
+
+
 /* Estils que afecten a tota la pàgina web */
 
 * {
