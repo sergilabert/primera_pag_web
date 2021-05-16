@@ -43,8 +43,7 @@
 * {
 font-family: verdana;
 box-sizing:border-box;
-width:100%
-height:100%;
+
 }
 
 /* Estils que afecten a tots els links la pàgina web */
@@ -72,7 +71,6 @@ body{
 /* Estils que afecten a la classe group */
 
 .group {
-
 	margin:auto;
 	background: #B4C9A6 
 }
@@ -88,7 +86,7 @@ body{
 	color:#f8f8ff;
 	border: 3px solid #132F02;
 	height: 600px;
-	width: 100%
+	width: 100%;
 	
 }
 .header h1{
@@ -169,31 +167,11 @@ h2 {
  
 .leftcolum{
 	margin:20px;
-	width: 60%;
+	width: 95%;
 	float:left;
 	line-height:30px;
 }
 
-/* Estils que afecten a la classe rightcolum*/
-
-.rightcolum{
-	width:35%;
-	float:left;
-	margin:20px 0px;
-	text-align: justify;
-	margin-bottom:20px;
-	line-height:30px;
-	border-radius:40px;
-}
-
-.rightcolum h2{
-	color:#3B4529;
-	font-weight:bold;
-}
-.rightcolum h3{
-	color:#3B4529;
-	font-weight:bold;
-}
 
 /* Etiquetes que afecten a la seccio 1,2,3,4 i 5*/
 
@@ -232,40 +210,6 @@ h2 {
 	font-weight:bold;
 }
 
-.seccio3{
-	background:#F3F5D6;
-	margin:10px
-	margin-bottom: 15px;
-	text-align: justify;
-	padding:10px 10px;
-	border-radius:40px;
-	margin-top:35px
-}
-
-.seccio3 h2{
-	color:#3B4529;
-	font-weight:bold;
-}
-
-.seccio3 li{
-	list-style:none;
-	font-size: 15px;
-	text-align:center;
-	color:#001B05;
-	font-weight:bold;
-	padding:8px;
-	background:#BFE2AD;
-	border-radius:20px;
-	letter-spacing:1.5px;
-	margin-top:10px;
-	
-}
-
-.seccio3 table{
-	margin: 0 auto;
-	 text-align: left;
-	 box-sizing:content-box;
-}
 
 .seccio4{
 	background:#F3F5D6;
