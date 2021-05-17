@@ -2,8 +2,10 @@
 <html lang="es">
 	<head>
 
-<!-- He utilitzat les etiquetes meta per donar més informació de la meva pàgina web2
-Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions sobre com controlar les dimensions i l'escala de la pàgina-->
+<!-- 
+He utilitzat les etiquetes meta per donar més informació de la meva pàgina web
+Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions sobre com controlar les dimensions i l'escala de la pàgina
+-->
 
 		<meta charset="utf-8"/>
 		<title>Descobreix el Delta de l'Ebre</title>
@@ -26,13 +28,20 @@ Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions 
 
 	<body>
 
-<!--Primer he realitzat una divisió anomenada "group" on s'inclou tot el body i ens serveix de cotendidor per incloure tot el cotingut de la pàgina web.-->
+<!--
+	Primer he realitzat una divisió anomenada "group" on s'inclou tot el body i ens serveix de contendidor per incloure tot el contingut de la pàgina web-->
 
-<!--Desprès hi ha la divisió de tres classes, 
+<!--
+Després hi ha la divisió de tres classes, 
 	- La primera, el header engloba la capçalera amb el títol i el subtítol.
-	- La segona, el topnav, que correspon a la barra de navegació amb diferents enllaços a les altres pàgines de la web, i dins d'aquesta divisió, n'hi ha un altra que correspon al logo de la pàgina. -->
+	- La segona, el topnav, que correspon a la barra de navegació amb diferents enllaços a les altres pàgines de la web, i dins d'aquesta divisió, n'hi ha una altra que correspon al logo de la pàgina. 
+-->
 
-<!--S'ha utilitzat llenguatge especific d'HTML, per exemple, s'han utilitzat encapçalaments -->
+<!--
+S'ha utilitzat llenguatge específic d'HTML, per exemple, s'han utilitzat etiquetes d'encapçalaments(h1 i h2), l'h1 s'ha utilitzat per indicar el títol i  l'h2 el subtitòl.
+En la class=topnav, s'ha creat la barra de navegació, on s'ha creat una llista no ordenada (unordered list) on es crea un enllaç amb les altres pàgines web (<a href...) i s'afegeix target=blank que l'obre en una pestanya nova
+Dins de la divisió topnav també s'ha afegit un div que correspon al logotip, on s'ha enllaçat amb la imatge corresponent i aquesta està enllaçada amb la pàgina principal (en aquesta és la mateixa, però serveix d'utilitat per a les altres)
+-->
 
 		<div class="group">
 
@@ -59,7 +68,14 @@ Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions 
 
 				</div>
 
-<!-- Desprès he realitzat dues columnes ("leftcolum" i "rightcolum", en cadascuna d'aquestes hi ha diferents seccions que inclouen diferents continguts de la pàgina. En les diferents seccions he treballat amb les etiquetes que hem comentat durant aquest primer blog de l'assignatura.)-->
+<!-- 
+En la div anomenada column, hi ha el contingut de la pàgina, aquesta l'hem dividit amb diferents seccions (seccio 1 i seccio 2). En les seccions hem utilitzat etiquetes pròpies d'HTML:
+	- <h2>: Encapçalament
+	- <b>: Aquesta etiqueta ens ha servit per indicar text amb negreta
+	- <br>: Per a realitzar un salt de línia
+	- <a href>: Per realitzar hiperlinks amb altres pàgines, per exemple, s'ha enllaçat amb les pàgines web dels ajuntaments dels municipis i altres pàgines d'interès.
+	- <ol>: Per fer una llista ordenada.
+-->
 
 			<div class="column">
 				<section class="seccio1">
@@ -96,7 +112,10 @@ Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions 
 				</div>
 
 
-<!-- Per últim he realitzat el footer on he inclòs el que es demanava en la pràctica i també ho he classificat per classes-->
+<!-- 
+Per últim he realitzat el footer on he inclòs diferents enllaços a xarxes socials, on després amb el CSS li atribueixo una icona.
+També hi ha els drets de copyright i un enllaç per tornar a l'inici de la pàgina.
+-->
 
 
 			<div class="footer">
