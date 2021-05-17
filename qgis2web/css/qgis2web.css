@@ -7,27 +7,33 @@
             vertical-align: top;
         }
         .info {
-            padding: 6px 8px;
-            font: 14px/16px Arial, Helvetica, sans-serif;
+            padding: 10px 10px;
+            font: 14px/14px Arial, Helvetica, sans-serif;
             background: white;
             background: rgba(255,255,255,0.8);
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            border-radius: 5px;
+            border-radius: 15px;
         }
         .info h2 {
-            margin: 0 0 5px;
-            color: #777;
+            margin: 0  5px;
+            color: #B4C9A6;
         }
         .leaflet-container {
             background: #fff;
             padding-right: 10px;
         }
         .leaflet-popup-content {
+            background:#B4C9A6;
+            margin: 0px;
+            border-radius:10px;
             width:auto;
-            padding-right:10px;
+            padding-right:20px;
+            text-shadow: 0.05em 0.05em #fff
         }
+
+
         .leaflet-tooltip {
-            background: none;
+            background: green;
             box-shadow: none;
             border: none;
         }
