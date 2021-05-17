@@ -1,40 +1,23 @@
 /* Extra small devices (phones, 600 px and down) */
 
-@media only screen and (max-width:600px){
-	
+@media screen and (min-width:780px) and (max-width:1024px){
 
+	body{
+		height:600px;
+	}
+
+}
+
+@media screen and (min-width:480px) and (max-width:780px){
 
 	
 }
 
-/* Small devices (potrait tablets and large phones, 600 px and up) */
 
-@media only screen and (min-width:600px){
+@media screen and (max-width:480px){
 
 	
-}
 
-/* Medium devices (landscape, tablets, 768 px and up) */
-
-@media only screen and (min-width: 768px){
-	
-
-}
-
-
-/* Large devices(laptops/desktops, 992px and up) */
-
-@media only screen and (min-width: 992px){
-	
-	
-}
-
-
-/* Extra large devices (large laptops and desktops, 1200 px and up) */
-
-@media only screen and (min-width:1200px){
-	
-	
 }
 
 
@@ -42,8 +25,7 @@
 
 * {
 font-family: verdana;
-box-sizing:border-box;
-
+box-sizing:border-box; 
 }
 
 /* Estils que afecten a tots els links la pàgina web */
@@ -65,14 +47,14 @@ img {
 /* Estils que afecten al body (cos) de la pàgina web */
 
 body{
-	margin:0px
+	margin:0;
 }
 
 /* Estils que afecten a la classe group */
 
 .group {
 	margin:auto;
-	background: #B4C9A6 
+	background: #B4C9A6;
 }
 
 /* Estils que afecten a la classe header (titòls,subtitòls) */
@@ -86,7 +68,7 @@ body{
 	color:#f8f8ff;
 	border: 3px solid #132F02;
 	height: 600px;
-	width: 100%;
+
 	
 }
 .header h1{
@@ -95,7 +77,6 @@ body{
 	font-family: "Lora", serif;
 	letter-spacing: 1.5px;
 	text-shadow: 0.1em 0.1em #333;
-	width: 100%
 }
 .header h2{
 	font-size: 55px;
@@ -104,7 +85,6 @@ body{
 	color:white;
 	letter-spacing: 1.5px;
 	text-shadow: 0.1em 0.1em #333;
-	width: 100%
 }
 
 /* Estils que afecten a la classe topnav (enllaços, imatge, logo) */
@@ -123,9 +103,11 @@ body{
 	font-family: "Lora", serif;
 	text-decoration:none;
 	background:#F3F5D6;
-	padding: 4px 20px;
+	padding: 4px 4px;
 	border-radius:30px;
 	margin:10px;
+	transition: all 0.5s linear;
+
 }
 
 .topnav li a:hover, .select{
@@ -165,11 +147,12 @@ h2 {
 
 /* Estils que afecten a la classe leftcolum*/
  
-.leftcolum{
-	margin:20px;
-	width: 95%;
-	float:left;
+.column{
+	margin:20px 20px;
+	width:95%;
 	line-height:30px;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 
@@ -182,6 +165,7 @@ h2 {
 	text-align: justify;
 	padding:10px 10px;
 	border-radius:40px;
+	justify-content: center;
 }
 
 .seccio1 h2{
@@ -208,35 +192,6 @@ h2 {
 	font-size: 18px;
 	color:black;
 	font-weight:bold;
-}
-
-
-.seccio4{
-	background:#F3F5D6;
-	margin:10px;
-	margin-bottom: 15px;
-	text-align: justify;
-	padding:10px 10px;
-	border-radius:40px;
-	margin-top:20px;
-}
-
-.seccio5{
-	background:#F3F5D6;
-	margin:10px
-	margin-bottom: 15px;
-	text-align: justify;
-	padding:10px 10px;
-	border-radius:40px;
-	margin-top:71px
-}
-
-.seccio5 img{
-	padding:5px;
-	background:#BFE2AD;
-	border-radius:15px;
-	letter-spacing:1.5px;
-	margin-top:27px
 }
 
 /* Estils que afecten al footer*/
