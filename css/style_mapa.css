@@ -1,7 +1,27 @@
+/* Estils CSS responsive */
+@media only screen and (max-width: 1196px){
+
+	.topnav ul li {
+		width:100%;
+		padding:10px;
+		text-align:left;
+	}
+	
+	.topnav li a{
+		display:block;
+	}
+
+	
+	.topnav img {
+ 		display: none;
+	 }
+
+}
+
 /* Estils que afecten a tota la pàgina web */
 * {
-font-family: verdana;
-box-sizing:border-box; 
+	font-family: verdana;
+	box-sizing:border-box; 
 }
 
 /* Estils que afecten a tots els links de la pàgina web */
@@ -15,22 +35,14 @@ a {
 /* Estils que afecten al body (cos) de la pàgina web */
 
 body{
-	background:#B4C9A6;
 	margin:0px 0px;
-	padding:0px;
-	font-family: "Lora", serif;
-
 }
 
-html, body {
-            height: 100%;
-            width: 100%;
-}
 
 /* Estils que afecten a la classe group */
 
 .group {
-	margin:0px;
+	margin:auto;
 	background: #B4C9A6
 }
 
@@ -45,6 +57,7 @@ html, body {
 	color:#f8f8ff;
 	border: 3px solid #132F02;
 	height: 600px;
+	width:100%;
 	margin:auto;
 }
 .header h1{
@@ -71,6 +84,7 @@ html, body {
 	padding:4px;
 	margin-right:auto;
 	border: 1px solid #132F02;
+	width:100%;
 }
 
 .topnav li a{
@@ -79,9 +93,10 @@ html, body {
 	font-family: "Lora", serif;
 	text-decoration:none;
 	background:#F3F5D6;
-	padding: 4px 20px;
+	padding: 4px 4px;
 	border-radius:30px;
-	margin:10px;
+	margin:0px;
+	transition: all 0.5s linear;
 }
 
 .topnav li a:hover, .select{
@@ -89,9 +104,9 @@ html, body {
 	color:white;
 }
 
-.topnav li {
+.topnav ul li {
 	list-style:none;
-	padding:8px;
+	padding:4px;
 	font: bold 18px "Lora", serif;
 	display: inline-block;
 	text-align: left;
@@ -99,8 +114,8 @@ html, body {
  
  .topnav img {
  	border: 2px solid black; float: right;
- 	width:70px;
- 	height:70px;
+ 	width:60px;
+ 	height:60px;
  }
 
 .logo{
