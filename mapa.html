@@ -11,7 +11,7 @@ Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions 
 		<meta name="description" content="Aquesta és la meva primera pàgina web de l'assignatura WebGis"/>
 		<meta name="author" content="Sergi Gilabert, alumne Universitat Rovira i Virgili"/>
 		
-<!--Links dels CSS-->
+<!--Links dels CSS, en aquest s'afegeix el link de la biblioteca de Leaflet-->
 
 		<link rel="stylesheet" href="css/style_mapa.css">
 
@@ -30,9 +30,14 @@ Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions 
 	</head>
 	<body>
 
-<!--Primer he realitzat una divisió anomenada "group" on s'inclou tot el body.-->
+<!--
+	Primer he realitzat una divisió anomenada "group" on s'inclou tot el body i ens serveix de contendidor per incloure tot el contingut de la pàgina web-->
 
-<!--Desprès tres classes, on la primera ("header") engloba la capçalera amb el títol i el subtítol, la segona ("topnav"),la barra de navegació i dins d'aquesta segona hi ha una tercera on hi ha el logo-->
+<!--
+Després hi ha la divisió de tres classes, 
+	- La primera, el header engloba la capçalera amb el títol i el subtítol.
+	- La segona, el topnav, que correspon a la barra de navegació amb diferents enllaços a les altres pàgines de la web, i dins d'aquesta divisió, n'hi ha una altra que correspon al logo de la pàgina. 
+-->
 
 	<div class="group">
 
@@ -60,8 +65,9 @@ Amb l'etiqueta <meta name="viewport"...> se li ordena al navegador instruccions 
 
 			</div>
 
-<!--Aquí he aplicat el mapa a partir del open street map amb Java Script, he seguit el procediment del professor i d'algunes indicacions de la propia web d'open street map per poder realitzar-ho correctament.
+<!--Aquí he aplicat el mapa a partir de l'open street map amb Java Script, he seguit el procediment del professor i d'algunes indicacions de la pròpia web d'open street map per poder realitzar-ho correctament.
 També he afegit diversos marcadors amb zones d'interès per visitar.-->
+<!-- En el mapa s'ha establert un zoom, perquè quan es visualitzi es vegi la zona que ens interessa amb les coordenades corresponents. -->
 
 			<div id="map">
 				<script>
@@ -93,7 +99,10 @@ També he afegit diversos marcadors amb zones d'interès per visitar.-->
 				</script>
 			</div>
 
-<!-- Per últim he realitzat el footer on he inclòs el que es demanava en la pràctica i també ho he classificat per classes-->
+<!-- 
+Per últim he realitzat el footer on he inclòs diferents enllaços a xarxes socials, on després amb el CSS li atribueixo una icona.
+També hi ha els drets de copyright i un enllaç per tornar a l'inici de la pàgina.
+-->
 
 			<div class="footer">
 
