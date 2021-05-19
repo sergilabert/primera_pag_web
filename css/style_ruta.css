@@ -19,6 +19,7 @@
 }
 
 /* Estils que afecten a tota la pàgina web */
+
 * {
 font-family: verdana;
 box-sizing:border-box; 
@@ -135,7 +136,7 @@ html, body {
 	background: white
 }
 
-/* Estils que afecten al mermaif */
+/* Estils que afecten al mermaid */
 
 .mermaid{
 

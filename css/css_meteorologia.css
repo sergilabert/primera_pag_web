@@ -1,4 +1,5 @@
 /* Estils CSS responsive */
+
 @media only screen and (max-width: 1000px){
 	.seccio2 th,td{
 		display:block;

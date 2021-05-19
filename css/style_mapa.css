@@ -1,4 +1,5 @@
 /* Estils CSS responsive */
+
 @media only screen and (max-width: 1196px){
 
 	.topnav ul li {
@@ -19,6 +20,7 @@
 }
 
 /* Estils que afecten a tota la pàgina web */
+
 * {
 	font-family: verdana;
 	box-sizing:border-box; 
