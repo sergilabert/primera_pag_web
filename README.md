@@ -1,6 +1,6 @@
 # DESCOBREIX EL DELTA
 ## Recopilació d'informació, ubicacions i fotografies del Delta de l'Ebre
-##### Aquesta ha estat la meva primera pàgina web, realitzada en l'assignatura de <b>Producció i Disseny Cartogràfic</b>
+Aquesta ha estat la meva primera pàgina web, realitzada en l'assignatura de <b>Producció i Disseny Cartogràfic</b>
 
 ### TEMÀTICA I MOTIVACIÓ
 
