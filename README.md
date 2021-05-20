@@ -71,7 +71,7 @@ Per finalitzar l'assignatura hem realitzat un últim exercici per completar la n
 * <b>Diagrama de Mermaid.js</b><br>
 
 #### ELABORACIÓ DE LA CARTOGRAFIA
-1. <b>Treball de camp</b> pel municipi de Deltebre, realitzant fotos georeferenciades de diferents bars i restaurants del municipi. Posteriorment s'han i exportat al Qgis mitjançant l'eina _d'Importar fotos georeferenciades_.
+1. <b>Treball de camp</b> pel municipi de Deltebre, realitzant fotos georeferenciades de diferents bars i restaurants del municipi. Posteriorment s'han exportat al Qgis mitjançant l'eina _d'Importar fotos georeferenciades_.
 2. Instauració del QuickMapServices: <b>OSM Standard</b>
 3. Atribuir als diferents punts de les imatges exportades una <b>icona.SVG</b> per visualitzar-les en el mapa.
 4. Afegir <b>informació de cada bar/restaurant</b> en la capa d'atributs (nom de l'establiment, horari, direcció i número de contacte).<br>
