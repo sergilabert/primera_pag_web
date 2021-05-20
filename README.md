@@ -64,7 +64,7 @@ Després vaig afegir el botó per a cercar la informació a partir dels codis po
 ### PROJECTE FINAL
 Per finalitzar l'assignatura hem realitzat un últim exercici per completar la nostra pàgina, on es poden observar tots els recursos revisats en l'assignatura i s'ha fet ús de cartografia interactiva. En aquesta s'ha introduït:
 * <b>Una taula formatada</b>
-* <b>Un mapa web</b> en el quual es mostren:
+* <b>Un mapa web</b> en el qual es mostren:
 	* <b>Etiquetes emergents ("popups")</b> amb HTML/CSS. Modificats posteriorment des del codi generat del qgis2web.
 	* <b>Icones SVG</b>
 	* Capes de <b>polígons, punts i línies</b>
